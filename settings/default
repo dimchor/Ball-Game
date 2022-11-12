@@ -1,0 +1,6 @@
+# comments start with #, everything else is an option
+# example option:
+# option:value (strings, numbers, booleans (0 or 1, not true or false))
+assets: default
+boards: square; towers; heart; lobster;
+bgColor: 5; 10; 50;

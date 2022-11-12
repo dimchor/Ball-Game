@@ -1,0 +1,120 @@
+]777;notify;Command completed;gnome-terminal\]777;precmd\]0;jimmy@h310m-h:~/Documents/c++/wsdl-dxball/src\]7;file://h310m-h/home/jimmy/Documents/c%2B%2B/wsdl-dxball/src\[?2004h[jimmy@h310m-h src]$ du[Kistrobox-enter focal
+[?2004l]777;preexec\Starting container focal
+run this command to follow along:
+	podman logs -f focal
+.....
+done!
+]0;jimmy@focal: /home/jimmy/Documents/c++/wsdl-dxball/src[01;32mjimmy@focal[00m:[01;34m/home/jimmy/Documents/c++/wsdl-dxball/src[00m$ exitsudo apt upgrade[1Pdateexit[Kg++ -o ../bin/run main.cpp application.cpp wsdl.cpp -lSDL2 -lSDL2_image -lSDL2_ttf[Aclearg++ -o ../bin/run mai[5@n.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ag++ -o ../bin/run main.cpp[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+In file included from [01m[Kapplication.h:3[m[K,
+                 from [01m[Kmain.cpp:1[m[K:
+[01m[Kwsdl.h:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ does not name a type
+   71 |             [01;31m[KWindow[m[K* window;
+      |             [01;31m[K^~~~~~[m[K
+[01m[Kwsdl.h:73:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   73 |             Scene[34m[K([m[KWindow[01;31m[K&[m[K);
+      |                  [34m[K~[m[K      [01;31m[K^[m[K
+      |                         [32m[K)[m[K
+[01m[Kwsdl.h:75:28:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ has not been declared
+   75 |             void setWindow([01;31m[KWindow[m[K&);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[Kwsdl.h:76:13:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ does not name a type
+   76 |             [01;31m[KWindow[m[K& getWindow() const;
+      |             [01;31m[K^~~~~~[m[K
+In file included from [01m[Kapplication.h:3[m[K,
+                 from [01m[Kapplication.cpp:1[m[K:
+[01m[Kwsdl.h:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ does not name a type
+   71 |             [01;31m[KWindow[m[K* window;
+      |             [01;31m[K^~~~~~[m[K
+[01m[Kwsdl.h:73:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   73 |             Scene[34m[K([m[KWindow[01;31m[K&[m[K);
+      |                  [34m[K~[m[K      [01;31m[K^[m[K
+      |                         [32m[K)[m[K
+[01m[Kwsdl.h:75:28:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ has not been declared
+   75 |             void setWindow([01;31m[KWindow[m[K&);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[Kwsdl.h:76:13:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ does not name a type
+   76 |             [01;31m[KWindow[m[K& getWindow() const;
+      |             [01;31m[K^~~~~~[m[K
+[01m[Kapplication.cpp:[m[K In constructor ‘[01m[KLevel::Level(wsdl::Window&)[m[K’:
+[01m[Kapplication.cpp:146:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwsdl::Scene::Scene(wsdl::Window&)[m[K’
+  146 |     :Scene(window[01;31m[K)[m[K {}
+      |                  [01;31m[K^[m[K
+In file included from [01m[Kapplication.h:3[m[K,
+                 from [01m[Kapplication.cpp:1[m[K:
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr wsdl::Scene::Scene()[m[K’
+   69 |     class [01;36m[KScene[m[K {
+      |           [01;36m[K^~~~~[m[K
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr wsdl::Scene::Scene(const wsdl::Scene&)[m[K’
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kwsdl::Window[m[K’ to ‘[01m[Kconst wsdl::Scene&[m[K’
+[01m[Kapplication.cpp:[m[K In member function ‘[01m[Kvoid Level::run(const string&, const Board&, unsigned int&)[m[K’:
+[01m[Kapplication.cpp:151:29:[m[K [01;31m[Kerror: [m[K‘[01m[KgetWindow[m[K’ was not declared in this scope; did you mean ‘[01m[KsetWindow[m[K’?
+  151 |     wsdl::Renderer renderer([01;31m[KgetWindow[m[K(), -1, SDL_RENDERER_SOFTWARE);
+      |                             [01;31m[K^~~~~~~~~[m[K
+      |                             [32m[KsetWindow[m[K
+[01m[Kapplication.cpp:177:137:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwsdl::Text::Text(wsdl::Renderer&, std::string&, int, <brace-enclosed initializer list>, <brace-enclosed initializer list>, std::string)[m[K’
+  177 |     wsdl::Text paddles_left(renderer, default_font, 30, { 200, 200, 255 }, { getWindow().getSize().w - 30, 10 }, std::to_string(paddles)[01;31m[K)[m[K;
+      |                                                                                                                                         [01;31m[K^[m[K
+In file included from [01m[Kapplication.h:3[m[K,
+                 from [01m[Kapplication.cpp:1[m[K:
+[01m[Kwsdl.h:221:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kwsdl::Text::Text(const wsdl::Text&)[m[K’
+  221 |             [01;36m[KText[m[K(const Text&);
+      |             [01;36m[K^~~~[m[K
+[01m[Kwsdl.h:221:13:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[Kwsdl.h:219:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kwsdl::Text::Text(wsdl::Text&&)[m[K’
+  219 |             [01;36m[KText[m[K(Text&&);
+      |             [01;36m[K^~~~[m[K
+[01m[Kwsdl.h:219:13:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+In file included from [01m[Kapplication.h:3[m[K,
+                 from [01m[Kapplication.cpp:1[m[K:
+[01m[Kwsdl.h:218:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kwsdl::Text::Text(wsdl::Renderer&, const string&, const unsigned int&, const SDL_Color&, const wsdl::Location&, const string&)[m[K’
+  218 |             [01;36m[KText[m[K(Renderer&, const std::string&, const unsigned int&, const SDL_Color& = { 0 , 0 , 0 }, const Location& = { 0, 0 }, const std::string& = " ");
+      |             [01;36m[K^~~~[m[K
+[01m[Kwsdl.h:218:104:[m[K [01;36m[Knote: [m[K  no known conversion for argument 5 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst wsdl::Location&[m[K’
+  218 |             Text(Renderer&, const std::string&, const unsigned int&, const SDL_Color& = { 0 , 0 , 0 }, [01;36m[Kconst Location& = { 0, 0 }[m[K, const std::string& = " ");
+      |                                                                                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kwsdl.cpp:1[m[K:
+[01m[Kwsdl.h:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ does not name a type
+   71 |             [01;31m[KWindow[m[K* window;
+      |             [01;31m[K^~~~~~[m[K
+[01m[Kwsdl.h:73:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   73 |             Scene[34m[K([m[KWindow[01;31m[K&[m[K);
+      |                  [34m[K~[m[K      [01;31m[K^[m[K
+      |                         [32m[K)[m[K
+[01m[Kwsdl.h:75:28:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ has not been declared
+   75 |             void setWindow([01;31m[KWindow[m[K&);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[Kwsdl.h:76:13:[m[K [01;31m[Kerror: [m[K‘[01m[KWindow[m[K’ does not name a type
+   76 |             [01;31m[KWindow[m[K& getWindow() const;
+      |             [01;31m[K^~~~~~[m[K
+[01m[Kwsdl.cpp:453:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kwsdl::Scene::Scene(wsdl::Window&)[m[K’
+  453 | [01;31m[Kwsdl[m[K::Scene::Scene(Window& window)
+      | [01;31m[K^~~~[m[K
+In file included from [01m[Kwsdl.cpp:1[m[K:
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr wsdl::Scene::Scene(const wsdl::Scene&)[m[K’
+   69 |     class [01;36m[KScene[m[K {
+      |           [01;36m[K^~~~~[m[K
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconstexpr wsdl::Scene::Scene()[m[K’
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass wsdl::Scene[m[K’ defined here
+[01m[Kwsdl.cpp:456:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid wsdl::Scene::setWindow(wsdl::Window&)[m[K’
+  456 | void [01;31m[Kwsdl[m[K::Scene::setWindow(Window& window) {
+      |      [01;31m[K^~~~[m[K
+In file included from [01m[Kwsdl.cpp:1[m[K:
+[01m[Kwsdl.h:75:18:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid wsdl::Scene::setWindow(int&)[m[K’
+   75 |             void [01;36m[KsetWindow[m[K(Window&);
+      |                  [01;36m[K^~~~~~~~~[m[K
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass wsdl::Scene[m[K’ defined here
+   69 |     class [01;36m[KScene[m[K {
+      |           [01;36m[K^~~~~[m[K
+[01m[Kwsdl.cpp:460:15:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kwsdl::Window& wsdl::Scene::getWindow() const[m[K’
+  460 | wsdl::Window& [01;31m[Kwsdl[m[K::Scene::getWindow() const {
+      |               [01;31m[K^~~~[m[K
+[01m[Kwsdl.cpp:460:15:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kwsdl::Window& wsdl::Scene::getWindow() const[m[K’
+In file included from [01m[Kwsdl.cpp:1[m[K:
+[01m[Kwsdl.h:69:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass wsdl::Scene[m[K’ defined here
+   69 |     class [01;36m[KScene[m[K {
+      |           [01;36m[K^~~~~[m[K
+]0;jimmy@focal: /home/jimmy/Documents/c++/wsdl-dxball/src[01;32mjimmy@focal[00m:[01;34m/home/jimmy/Documents/c++/wsdl-dxball/src[00m$ g++ -o ../bin/run main.cpp application.cpp wsdl.cpp -lSDL2 -lSDL2_image -lSDL2_ttf[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ -o ../bin/run main.cpp application.cpp wsdl.cpp -lSDL2 -lSDL2_image -lSDL2_ttf[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ -o ../bin/run main.cpp application.cpp wsdl.cpp -lSDL2 -lSDL2_image -lSDL2_ttf
